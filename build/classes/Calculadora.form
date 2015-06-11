@@ -1,0 +1,419 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.3" maxVersion="1.6" type="org.netbeans.modules.form.forminfo.JFrameFormInfo">
+  <Properties>
+    <Property name="defaultCloseOperation" type="int" value="3"/>
+    <Property name="title" type="java.lang.String" value="Calculadora..."/>
+    <Property name="resizable" type="boolean" value="false"/>
+  </Properties>
+  <SyntheticProperties>
+    <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
+  </SyntheticProperties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" attributes="0">
+              <EmptySpace max="-2" attributes="0"/>
+              <Component id="jPanel1" min="-2" max="-2" attributes="0"/>
+              <EmptySpace pref="44" max="32767" attributes="0"/>
+          </Group>
+          <Group type="102" attributes="0">
+              <EmptySpace min="-2" pref="24" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" attributes="0">
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="bIzq" min="-2" pref="78" max="-2" attributes="0"/>
+                          <Component id="bDcho" min="-2" pref="78" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace min="-2" pref="41" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="102" alignment="0" attributes="0">
+                              <Component id="b0" min="-2" pref="97" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="bPunto" min="-2" pref="46" max="-2" attributes="0"/>
+                          </Group>
+                          <Group type="102" alignment="0" attributes="0">
+                              <Group type="103" groupAlignment="1" attributes="0">
+                                  <Component id="b7" min="-2" pref="42" max="-2" attributes="0"/>
+                                  <Component id="b4" min="-2" pref="42" max="-2" attributes="0"/>
+                                  <Component id="b1" alignment="1" min="-2" pref="42" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Group type="102" attributes="0">
+                                      <Component id="b5" min="-2" pref="48" max="-2" attributes="0"/>
+                                      <EmptySpace max="-2" attributes="0"/>
+                                      <Component id="b6" min="-2" pref="46" max="-2" attributes="0"/>
+                                  </Group>
+                                  <Group type="102" attributes="0">
+                                      <Component id="b8" min="-2" pref="48" max="-2" attributes="0"/>
+                                      <EmptySpace max="-2" attributes="0"/>
+                                      <Component id="b9" min="-2" pref="46" max="-2" attributes="0"/>
+                                  </Group>
+                                  <Group type="102" attributes="0">
+                                      <Component id="b2" min="-2" pref="48" max="-2" attributes="0"/>
+                                      <EmptySpace max="-2" attributes="0"/>
+                                      <Component id="b3" min="-2" pref="46" max="-2" attributes="0"/>
+                                  </Group>
+                              </Group>
+                          </Group>
+                      </Group>
+                      <EmptySpace min="-2" pref="30" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="1" attributes="0">
+                          <Group type="102" attributes="0">
+                              <Component id="bDividir" min="-2" pref="65" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="bResto" min="-2" pref="57" max="-2" attributes="0"/>
+                              <EmptySpace min="-2" pref="1" max="-2" attributes="0"/>
+                          </Group>
+                          <Component id="bMas" min="-2" pref="130" max="-2" attributes="0"/>
+                          <Component id="bMenos" alignment="0" min="-2" pref="129" max="-2" attributes="0"/>
+                          <Group type="102" alignment="0" attributes="0">
+                              <Component id="bPor" min="-2" pref="65" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="bElevar" min="-2" pref="57" max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
+                  </Group>
+                  <Component id="tError" min="-2" pref="390" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+              <Component id="bSalir" max="32767" attributes="0"/>
+              <EmptySpace min="-2" pref="7" max="-2" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" attributes="0">
+              <EmptySpace max="-2" attributes="0"/>
+              <Component id="jPanel1" min="-2" max="-2" attributes="0"/>
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" attributes="0">
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="102" attributes="0">
+                              <Component id="bIzq" min="-2" pref="67" max="-2" attributes="0"/>
+                              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                              <Component id="bDcho" min="-2" pref="64" max="-2" attributes="0"/>
+                          </Group>
+                          <Group type="102" attributes="0">
+                              <Group type="103" groupAlignment="3" attributes="0">
+                                  <Component id="b7" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="b8" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="b9" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="bMas" alignment="3" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="3" attributes="0">
+                                  <Component id="b5" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="b6" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="b4" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="bMenos" alignment="3" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="3" attributes="0">
+                                  <Component id="b1" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="b2" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="b3" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="bPor" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="bElevar" alignment="3" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="3" attributes="0">
+                                  <Component id="bPunto" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="b0" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="bDividir" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="bResto" alignment="3" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                          </Group>
+                      </Group>
+                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                      <Component id="tError" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <Group type="102" attributes="0">
+                      <EmptySpace min="119" pref="119" max="-2" attributes="0"/>
+                      <Component id="bSalir" min="-2" max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+              <EmptySpace pref="31" max="32767" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Container class="javax.swing.JPanel" name="jPanel1">
+      <Properties>
+        <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+          <Border info="org.netbeans.modules.form.compat2.border.SoftBevelBorderInfo">
+            <BevelBorder/>
+          </Border>
+        </Property>
+        <Property name="name" type="java.lang.String" value="" noResource="true"/>
+      </Properties>
+
+      <Layout>
+        <DimensionLayout dim="0">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" attributes="0">
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" attributes="0">
+                          <Component id="lExpresion" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace pref="27" max="32767" attributes="0"/>
+                          <Component id="tExpresion" min="-2" pref="221" max="-2" attributes="0"/>
+                      </Group>
+                      <Group type="102" alignment="0" attributes="0">
+                          <Component id="lPostfija" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace pref="38" max="32767" attributes="0"/>
+                          <Component id="tPostfija" min="-2" pref="221" max="-2" attributes="0"/>
+                      </Group>
+                      <Group type="102" alignment="0" attributes="0">
+                          <Component id="lResultado" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace pref="26" max="32767" attributes="0"/>
+                          <Component id="tResultado" min="-2" pref="221" max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Component id="bIgual" min="-2" pref="102" max="-2" attributes="0"/>
+                      <Component id="bBorrar" min="-2" pref="102" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace min="-2" pref="27" max="-2" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+        <DimensionLayout dim="1">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" alignment="0" attributes="0">
+                  <EmptySpace min="-2" pref="33" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="lExpresion" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="tExpresion" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="bBorrar" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" attributes="0">
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="lPostfija" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="tPostfija" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace type="separate" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="lResultado" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="tResultado" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
+                      <Component id="bIgual" alignment="0" min="-2" pref="70" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace pref="27" max="32767" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+      </Layout>
+      <SubComponents>
+        <Component class="javax.swing.JLabel" name="lExpresion">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Expresi&#xf3;n:"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="lPostfija">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Postfija:"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="lResultado">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Resultado:"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JButton" name="bBorrar">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Borrar"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="bBorrarActionPerformed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JTextField" name="tExpresion">
+          <Properties>
+            <Property name="toolTipText" type="java.lang.String" value="Introduce tu operaci&#xf3;n"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="tPostfija">
+          <Properties>
+            <Property name="editable" type="boolean" value="false"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="tResultado">
+          <Properties>
+            <Property name="editable" type="boolean" value="false"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JButton" name="bIgual">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="="/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="bIgualActionPerformed"/>
+          </Events>
+        </Component>
+      </SubComponents>
+    </Container>
+    <Component class="javax.swing.JButton" name="bIzq">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="("/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="bIzqActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="bDcho">
+      <Properties>
+        <Property name="text" type="java.lang.String" value=")"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="bDchoActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="b7">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="7"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JButton" name="b4">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="4"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JButton" name="b1">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="1"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JButton" name="b8">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="8"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JButton" name="b5">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="5"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JButton" name="b2">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="2"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JButton" name="b9">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="9"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JButton" name="b6">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="6"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JButton" name="b3">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="3"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JButton" name="b0">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="0"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JButton" name="bMas">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="+"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="bMasActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="bMenos">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="-"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="bMenosActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="bPor">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="*"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="bPorActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="bDividir">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="/"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="bDividirActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="bElevar">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="^"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="bElevarActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="bResto">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="%"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="bRestoActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JTextField" name="tError">
+      <Properties>
+        <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="cd" green="d4" red="da" type="rgb"/>
+        </Property>
+        <Property name="editable" type="boolean" value="false"/>
+        <Property name="text" type="java.lang.String" value="No hay mensajes"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JToggleButton" name="bPunto">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="."/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="bPuntoActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="bSalir">
+      <Properties>
+        <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+          <Image iconType="3" name="/OpenJDK.png"/>
+        </Property>
+        <Property name="toolTipText" type="java.lang.String" value="Salir"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="bSalirActionPerformed"/>
+      </Events>
+    </Component>
+  </SubComponents>
+</Form>
